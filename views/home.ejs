@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="center" style="text-align:center;">
+      <%  articles.map(function(article){ %>
+          <p> <%=article.title %></p>
+          <p> <%=article.content %></p>
+      <%  }); %>
+    </div>
+
+  </body>
+</html>
